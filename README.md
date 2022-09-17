@@ -45,7 +45,7 @@ This project deploys a static web page with terraform to the Azure Kubernetes se
 
 12. Check if pods are running ```kubectl get pods```  
 
-13. Don't forget to clean up! ```terraform destroy```   
+13. Don't forget to clean up! ```terraform destroy -auto-approve```   
 
 
 ### Relevant links to learn more    
