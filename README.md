@@ -1,6 +1,6 @@
 # AKS Application
 
-This project deploys a static web page to the Azure Kubernetes service.
+This project deploys a static web page with terraform to the Azure Kubernetes service.
 
 ## Deployment steps
 ### Pre-requisites
@@ -43,7 +43,9 @@ This project deploys a static web page to the Azure Kubernetes service.
 
 11. Deploy ```minikube start```, activate minikube as the docker daemon ```eval $(minikube docker-env)```, Change directory ```cd dockerfiles```, build docker image ```docker build . -t my-aks-app:0.0.1```, add image to minikube ```minikube image load my-aks-app:0.0.1```, run in minikube ```kubectl run hello-my-aks-app --image=my-aks-app:0.0.1 --image-pull-policy=Never```
 
-12. Check if pods are running ```kubectl get pods```    
+12. Check if pods are running ```kubectl get pods```  
+
+13. Don't forget to clean up! ```terraform destroy```   
 
 
 ### Relevant links to learn more    
