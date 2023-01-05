@@ -49,4 +49,4 @@ This project deploys a static web page with terraform to the Azure Kubernetes se
 
 
 ### Relevant links to learn more    
-1. ```https://learn.hashicorp.com/tutorials/terraform/aks```
+1. https://learn.hashicorp.com/tutorials/terraform/aks
