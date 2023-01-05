@@ -6,13 +6,13 @@ This project deploys a static web page with terraform to the Azure Kubernetes se
 ### Pre-requisites
 1. An Azure account
 2. A terraform intallation   
-```https://learn.hashicorp.com/tutorials/terraform/install-cli```
+https://learn.hashicorp.com/tutorials/terraform/install-cli
 3. kubectl installation
-```https://kubernetes.io/docs/tasks/tools/```   
+https://kubernetes.io/docs/tasks/tools/ 
 4. Minikube installation    
-```https://minikube.sigs.k8s.io/docs/start/```  
+https://minikube.sigs.k8s.io/docs/start/ 
 5. Azure CLI
-```https://docs.microsoft.com/en-us/cli/azure/install-azure-cli```
+https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
 
 ### Steps
 1. Clone the project to your machine    
